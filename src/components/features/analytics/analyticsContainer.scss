@@ -1,0 +1,139 @@
+.analytics-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+
+    .nav-container {
+        display: flex;
+        flex-direction: row;
+        .analytics {
+            padding: 24px;
+            color: white;
+            background-color:#8181f3;
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
+        }
+        .compliance {
+            padding: 24px;
+            margin-left: 12px;
+            background-color:#efeeee;
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
+        }
+    }
+        .chart-container {
+             border: 1px solid #c7cfd5;
+             padding: 12px;
+             border-radius: 6px; 
+
+             .small-charts-container {
+                display: flex;
+                flex-direction: row;
+                padding: 12px;
+             }
+             .health-container {
+                display: flex;
+                flex-direction: row;
+                margin-top: 18px;
+
+                .health-chart{
+                    border: 1px solid #c7cfd5;
+                    border-radius: 6px; 
+                    flex: 60%
+                }
+                .lab-details{
+                    margin-left: 12px;
+                    flex: 40%;
+                    display: flex;
+                    flex-direction: column;
+
+                    .lab-results {
+                        border: 1px solid #c7cfd5; 
+                        border-radius: 6px; 
+                    }
+                    .lab-chart {
+                        display: flex;
+                        flex-direction: row;
+                        margin-top: 12px;
+
+                        .calories-chart {
+                            border: 1px solid #c7cfd5; 
+                            border-radius: 6px; 
+                        }
+
+                        .sleep-patters {
+                            border: 1px solid #c7cfd5; 
+                            border-radius: 6px; 
+                            margin-left: 12px;
+                        }
+                    }
+                }
+             }
+             
+            
+        }
+    
+}
+
+.small-chart {
+    border: 1px solid #c7cfd5;
+    border-radius: 6px; 
+    margin: 12px;
+    min-height: 100px;
+    min-width: 200px
+}
+
+.appointment-container {
+    padding: 12px ;
+    .title {
+        padding-top: 6px;
+    }
+    .appointment {
+        padding-top: 12px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+.text-seperation {
+    margin-left: 12px;
+}
+.link {
+    color: rgb(116, 116, 224);
+}
+
+.lab-results-container {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    .small-text{
+       margin-top: 12px;
+       margin-right: 12px;
+       display: flex;
+       flex-direction: row;
+       font-size: 8px;
+       color: #c7cfd5;
+       padding-top: 12px;
+       div {
+           flex: 30%;
+       }
+    }
+    .content-text {
+        display: flex;
+        flex-direction: row;
+        margin-right: 12px;
+        font-size: 12px;
+        color: #e48e2b;
+        div {
+            flex: 30%;
+        }
+    }
+    .value-text {
+        display: flex;
+        flex-direction: row;
+        margin-right: 12px;
+        font-size: 14px;
+        div {
+            flex: 30%;
+        }
+    }
+}
